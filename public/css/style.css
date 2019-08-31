@@ -1,0 +1,99 @@
+/* https://colorhunt.co/palette/154209 */
+
+* {
+  font-family: "Playfair Display", serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  text-align:center;
+}
+
+/* :root {
+  --main-dark: #6e2142;
+  --main-inter: #943855;
+  --main-clear: #e16363;
+  --main-very-clear: #ffd692;
+} */
+
+/* :root {
+  --main-dark: #007065;
+  --main-inter: #00a79d;
+  --main-clear: #f5c181;
+  --main-very-clear: #ffeecf;
+} */
+
+:root {
+  --main-dark: #6e2142;
+  --main-inter: #943855;
+  --main-clear: #e16363;
+  --main-very-clear: #ffd692;
+}
+
+header {
+  background: var(--main-dark);
+  color: var(--main-very-clear);
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > * {
+  padding-right: 2%;
+}
+
+a:visited{
+    color:var(--main-clear);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+nav > *:hover {
+  border: 1px white solid;
+}
+
+.medaillon {
+  border-radius: 50%;
+}
+
+.poem {
+  margin: 0 20%;
+  font-size: 2.5vw;
+  width: 50%;
+}
+
+.poem > *:hover {
+  border: 1px white dotted;
+}
+
+.poem p:nth-child(even) {
+  color: var(--main-clear);
+}
+
+body {
+  background: var(--main-very-clear);
+  color: var(--main-inter);
+}
+
+.list-poems div {
+  text-align: left;
+  list-style: none;
+}
