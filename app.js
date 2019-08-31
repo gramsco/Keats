@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
             let poem = resp.data[random]
             res.render("index", poem)
         })
-    .catch((err) => console.log(err))
+    .catch((err) => console.log(`oulah : ${err}`))
 })
 
 app.listen(PORT, () => console.log(`works at http://localhost:${PORT}`));
