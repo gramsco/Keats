@@ -58,9 +58,16 @@ app.get("/poems/:id", (req, res) => {
     res.render("poems/random", bigdata[req.params.id])
 })
 
+app.get("/about", (req, res) => {
+    
+    res.render("about", {})
+})
+
 app.get("/:anything", (req, res) => {
    res.render("wrong")
 })
+
+
 
 app.listen(PORT, () => console.log(`works at http://localhost:${PORT}`));
 
