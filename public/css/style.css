@@ -156,9 +156,10 @@ a:hover {
   width: 50%;
 }
 
+
 .poem > *:hover {
-  border: 1px white dotted;
-  cursor: pointer;
+  transform:scale(1.1);
+  cursor:pointer;
 }
 
 .poem p:nth-child(even) {
