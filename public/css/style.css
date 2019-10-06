@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   width: 100%;
   height:auto;
@@ -107,14 +108,16 @@ header div {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   color: #2d3135;
+  width:100%;
 }
 
 nav a:link,
 nav a:visited,
 nav a:hover {
   color: #2d3135;
+  margin:2%,
 }
 
 nav > * {
@@ -124,15 +127,21 @@ nav > * {
 a:link {
   color: var(--main-clear);
   text-decoration: none;
+    margin:2%,
+
 }
 
 a:visited {
     text-decoration: none;
+      margin:2%,
+
 
   color: var(--main-clear);
 }
 
 a:hover {
+    margin:2%,
+
     text-decoration: underline;
 
 }
@@ -178,10 +187,6 @@ body {
   border: 1px solid white;
   height: 1fr;
 }
-
-
-
-
 
 .list-poems a:hover {
   border: 1px solid #ece6da;
